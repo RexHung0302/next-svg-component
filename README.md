@@ -7,3 +7,7 @@
 
 ## Key Dependencies
 - [@svgr/webpack](https://www.npmjs.com/package/@svgr/webpack)
+
+## 分支 Demo
+
+- feat/svgr-normal-use - 最基礎使用 svgr 方式
