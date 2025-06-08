@@ -10,4 +10,4 @@
 
 ## 分支 Demo
 
-- feat/svgr-normal-use - 最基礎使用 svgr 方式
+- [feat/svgr-normal-use](https://github.com/RexHung0302/next-svg-component/tree/feat/svgr-normal-use) - 最基礎使用 svgr 方式
