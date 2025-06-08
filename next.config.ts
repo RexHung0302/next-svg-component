@@ -13,7 +13,16 @@ const nextConfig: NextConfig = {
         },
       },
     },
-  }
+  },
+
+  // Add @svgr/webpack to the webpack config
+  webpack: (config) => {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
+    });
+    return config;
+  },
 };
 
 export default nextConfig;
